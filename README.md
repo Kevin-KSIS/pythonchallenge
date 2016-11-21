@@ -112,5 +112,27 @@
  - `integrity.html`
 
 <a name='9'></a>
-[9. Level 8]()
+[9. Level 8](http://www.pythonchallenge.com/pc/def/integrity.html)
 
+ - View comment in source HTML
+ '''
+<!--
+un: 'BZh91AY&SYA\xaf\x82\r\x00\x00\x01\x01\x80\x02\xc0\x02\x00 \x00!\x9ah3M\x07<]\xc9\x14\xe1BA\x06\xbe\x084'
+pw: 'BZh91AY&SY\x94$|\x0e\x00\x00\x00\x81\x00\x03$ \x00!\x9ah3M\x13<]\xc9\x14\xe1BBP\x91\xf08'
+-->
+'''
+ - use bz2 lib to decompress it and click to the bee
+ - [bz2.py](https://github.com/Kevin-KSIS/pythonchallenge/tree/master/Code/bz2.py)
+ - `huge:file`
+
+<a name='10'></a>
+[10. Level 9](http://www.pythonchallenge.com/pc/return/good.html)
+
+ - Hint: `connect the dots`
+ - View source: two string are first string and second string
+ - use polygon of PIL.ImageDraw
+ - [ImageDraw.py](https://github.com/Kevin-KSIS/pythonchallenge/tree/master/Code/ImageDraw.py)
+ - 'bull.html'
+
+<a name='11'></a>
+[11. Level 11](http://www.pythonchallenge.com/pc/return/bull.html)
