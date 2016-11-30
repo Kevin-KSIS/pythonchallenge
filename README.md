@@ -99,7 +99,7 @@
 	hint2: answer is inside the zip
 ```
  - Unordered list: start from `90052.txt`
- - Then, read the info from the file `channel.html`
+ - Then, read the info from the file `channel.zip`
  - [channel.py](https://github.com/Kevin-KSIS/pythonchallenge/tree/master/Code/channel.py)
  - `oxygen.html`
 
@@ -115,13 +115,11 @@
 [9. Level 8](http://www.pythonchallenge.com/pc/def/integrity.html)
 
  - View comment in source HTML
- '''
-<!--
-un: 'BZh91AY&SYA\xaf\x82\r\x00\x00\x01\x01\x80\x02\xc0\x02\x00 \x00!\x9ah3M\x07<]\xc9\x14\xe1BA\x06\xbe\x084'
-pw: 'BZh91AY&SY\x94$|\x0e\x00\x00\x00\x81\x00\x03$ \x00!\x9ah3M\x13<]\xc9\x14\xe1BBP\x91\xf08'
--->
 '''
- - use bz2 lib to decompress it and click to the bee
+	un: 'BZh91AY&SYA\xaf\x82\r\x00\x00\x01\x01\x80\x02\xc0\x02\x00 \x00!\x9ah3M\x07<]\xc9\x14\xe1BA\x06\xbe\x084'
+	pw: 'BZh91AY&SY\x94$|\x0e\x00\x00\x00\x81\x00\x03$ \x00!\x9ah3M\x13<]\xc9\x14\xe1BBP\x91\xf08'
+'''
+ - Use bz2 lib to decompress it and click to the bee
  - [bz2.py](https://github.com/Kevin-KSIS/pythonchallenge/tree/master/Code/bz2.py)
  - `huge:file`
 
@@ -135,4 +133,10 @@ pw: 'BZh91AY&SY\x94$|\x0e\x00\x00\x00\x81\x00\x03$ \x00!\x9ah3M\x13<]\xc9\x14\xe
  - 'bull.html'
 
 <a name='11'></a>
-[11. Level 11](http://www.pythonchallenge.com/pc/return/bull.html)
+[11. Level 10](http://www.pythonchallenge.com/pc/return/bull.html)
+
+ - hint: `a = [1, 11, 21, 1211, 111221, `
+ - Algorithm: look and say
+ - use `group by` of `itertools`
+ - [level 10](https://github.com/Kevin-KSIS/pythonchallenge/tree/master/Code/level_7.py)
+ - `5808.html`
