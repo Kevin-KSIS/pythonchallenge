@@ -138,5 +138,5 @@
  - hint: `a = [1, 11, 21, 1211, 111221, `
  - Algorithm: look and say
  - use `group by` of `itertools`
- - [level 10](https://github.com/Kevin-KSIS/pythonchallenge/tree/master/Code/level_7.py)
+ - [level 10](https://github.com/Kevin-KSIS/pythonchallenge/tree/master/Code/level_10.py)
  - `5808.html`
